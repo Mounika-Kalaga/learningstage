@@ -1,0 +1,18 @@
+Git Cheat Sheet
+===============
+
+git status          - show working tree status
+git add <file>      - stage a file
+git add .           - stage all changes
+git commit -m "msg" - commit staged changes
+git log             - view commit history
+git log --oneline   - compact history
+git diff            - show unstaged changes
+git diff --staged   - show staged changes
+git branch          - list branches
+git branch <name>   - create a branch
+git checkout <name> - switch branch
+git checkout -b <name> - create and switch
+git merge <branch>  - merge branch into current
+git stash           - stash uncommitted changes
+git stash pop       - restore stashed changes
